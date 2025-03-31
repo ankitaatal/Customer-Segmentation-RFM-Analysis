@@ -362,6 +362,118 @@ _A beautiful summary of all segments on a 2D axis, with size and color for custo
 
 ---
 
+# 🧠 Customer Segmentation using RFM Analysis
+
+This project analyzes one year of transactional data from a UK-based online retail store to uncover meaningful customer segments using **RFM (Recency, Frequency, Monetary)** analysis. The goal is to identify key customer groups, understand behavioral trends, and provide actionable insights for improving customer retention, targeting, and profitability.
+
+---
+
+## 📦 Dataset Overview
+
+- **Source**: UK Online Retail Data (2010-12 to 2011-12)
+- **Transactions**: 18,402 unique invoices
+- **Customers**: 4,334 unique customers
+- **Revenue**: £8.74 million
+- **Data Columns**: Invoice No, Date, Customer ID, Product Description, Quantity, Unit Price, Country, Total Sales
+- **Preprocessing**:
+  - Cleaned using Python (removal of duplicates, nulls, and invalid records)
+  - Stored in a structured **SQLite database** for analysis
+
+---
+
+## 🔍 Project Objectives
+
+- Explore purchasing patterns across time, geography, and products
+- Measure customer engagement and value using RFM scores
+- Group customers into actionable segments
+- Recommend data-driven marketing and retention strategies
+
+---
+
+## 🧪 Technologies Used
+
+- **Python**: Data cleaning, analysis, visualizations
+- **SQLite**: SQL-based data querying and RFM logic
+- **Matplotlib / Seaborn / Plotly**: Static and interactive visualizations
+- **Jupyter Notebook**: Workflow management and documentation
+
+---
+
+## 📊 Exploratory Data Analysis (EDA)
+
+A comprehensive analysis was performed covering:
+
+1. **Key Performance Indicators (KPIs)**  
+2. **Revenue Trends Over Time**  
+3. **Sales Activity by Time and Day**  
+4. **Product Performance Analysis**  
+5. **Customer Profitability by Country**  
+6. **Customer Retention & Churn**  
+7. **Customer Purchase Frequency**  
+8. **Customer Acquisition Trends**
+
+> 📌 [Click here to see EDA summaries](#)
+
+---
+
+## 🧮 RFM Analysis
+
+### RFM Metrics
+
+| Metric     | Description                                |
+|------------|--------------------------------------------|
+| Recency    | Days since the last purchase               |
+| Frequency  | Number of unique purchase occasions        |
+| Monetary   | Total spending across all purchases        |
+
+- Each customer received an **RFM score (1 to 5)** based on quantiles
+- Scores were then combined into meaningful **customer segments**
+
+---
+
+## 🧩 Customer Segments
+
+| Segment             | Description                                  | Action Recommendation |
+|---------------------|----------------------------------------------|------------------------|
+| **Champions**        | Most active & high-spending customers       | Priority access, rewards |
+| **Loyal Customers**  | Frequent buyers with consistent value       | Upsell, loyalty programs |
+| **Potential Loyalists** | New but promising customers            | Nurture & retain        |
+| **At Risk**          | High value, no recent activity              | Personalized win-backs |
+| **Hibernating**      | Inactive low-spend customers                | Reactivation campaigns  |
+| *(+ more)*           | ...                                          | ...                    |
+
+> 📌 Full segmentation logic and visuals included in the notebook
+
+---
+
+## 📈 Visualizations
+
+- Distribution plots for Recency, Frequency, and Monetary
+- Segment-wise **RFM score boxplots**
+- Segment performance tables
+- Comparative **heatmaps** of RFM values
+- **Customer density heatmaps** by score
+- Segment-wise revenue trends and contributions
+- Bubble charts of segment behavior and value
+
+---
+
+## 💡 Insights & Recommendations
+
+> 🚀 All insights are backed by quantitative metrics and visual analysis.
+
+- **Champions (13% of customers)** generated over **50% of revenue**. Focus on retention through VIP offers and early access.
+- **At Risk** and **Can’t Lose Them** are high-value but inactive. Prioritize with win-back strategies.
+- **Hibernating** and **About to Sleep** form a large base with low engagement. Launch personalized reactivation campaigns.
+- **New & Promising Customers** need onboarding support and offers to build loyalty.
+- **Netherlands, Ireland, and Australia** have high revenue per customer. Explore these markets further.
+
+---
+
+## 🗂️ Project Structure
+
+
+
 ## ✅ How to Run
 
 ```bash
