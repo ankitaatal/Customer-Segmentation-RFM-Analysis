@@ -268,6 +268,129 @@ Each customer is scored from 1–5 for each metric, with **5 being the best**. T
 
 ---
 
+# 🛍️ Customer Segmentation – RFM Analysis
+
+This project performs detailed customer segmentation using **Recency, Frequency, and Monetary (RFM)** analysis on transactional data from an online UK-based retail store. The goal is to identify high-value customers, understand behavior patterns, and enable personalized marketing strategies that enhance customer retention, loyalty, and revenue growth.
+
+---
+
+## 📌 Project Objectives
+
+- Segment customers based on RFM metrics to uncover key behavioral patterns.
+- Understand sales activity by time, day, product, and region.
+- Identify valuable customer groups and churn risks.
+- Generate actionable marketing and retention strategies.
+
+---
+
+## 🗂️ Dataset
+
+- **Source**: UCI Online Retail Dataset  
+- **Period**: December 2010 to December 2011  
+- **Customers**: 4,334  
+- **Transactions**: 18,402  
+- **Revenue**: £8.74M  
+- **Format**: Cleaned and loaded into an SQLite database for analysis.
+
+---
+
+## 🧰 Tools & Technologies
+
+- **Language**: Python  
+- **Database**: SQLite (via `sqlite3`)  
+- **Visualization**: Matplotlib, Seaborn, Plotly  
+- **Notebook Environment**: Jupyter Notebook  
+
+---
+
+## 🔎 Project Structure
+
+
+---
+
+## 📊 Key Analysis Sections
+
+### 1. Exploratory Data Analysis (EDA)
+- Sales trends over time (monthly revenue, MoM growth)
+- Sales activity by hour and weekday
+- Product performance
+- Regional profitability
+- Customer retention, frequency, and acquisition trends
+
+### 2. RFM Analysis
+- Calculation and distribution of Recency, Frequency, and Monetary metrics
+- RFM scoring and customer segmentation
+- Segment-wise performance analysis
+- Heatmaps and score grids for deep dive
+
+---
+
+## 💡 Insights & Recommendations
+
+> A few highlights from the analysis:
+
+- **Champions** (589 customers) contributed over **£4.46M** in revenue. These should be nurtured with loyalty rewards and early product access.
+- **Loyal Customers** and **Potential Loyalists** show consistent engagement—ideal for upselling and membership campaigns.
+- **Hibernating** and **At Risk** customers represent re-engagement opportunities with targeted offers.
+- **New Customers** show promising early behavior and should be guided through the customer journey.
+
+🎯 **Actionable Strategy**: Prioritize retention of high-value segments, re-engage dormant users with tailored campaigns, and focus acquisition in profitable geographies (e.g., Netherlands, Ireland, Germany).
+
+---
+
+## 📌 Sample Visualizations
+
+Here are some recommended visuals to include:
+
+### 📈 Revenue Trends Over Time  
+_A line chart showing month-wise revenue and growth._
+
+### ⏰ Purchases by Time of Day  
+_A bar chart highlighting peak shopping hours (10 AM–2 PM)._
+
+### 📦 Top Products by Revenue & Quantity  
+_Compare revenue drivers with volume movers._
+
+### 🌍 Revenue Distribution by Country  
+_An interactive choropleth showing global sales contribution._
+
+### 🧱 RFM Segment Heatmap  
+_Showing segment concentration across Recency and Frequency/Monetary scores._
+
+### 🫧 Customer Segment Bubble Chart  
+_A beautiful summary of all segments on a 2D axis, with size and color for customer count and monetary value._
+
+---
+
+## ✅ How to Run
+
+```bash
+# Clone the repository
+git clone https://github.com/your-username/customer-segmentation-rfm.git
+cd customer-segmentation-rfm
+
+# Install requirements
+pip install -r requirements.txt
+
+# Launch Jupyter Notebook
+jupyter notebook
+
+---
+
+## 🖼️ Recommended Visuals to Include in README
+
+1. **Monthly Revenue Trend (Line Chart)** – shows seasonal impact.
+2. **Purchases by Hour of Day (Bar Chart)** – for timing-based targeting.
+3. **Top Products (Bar or Scatter)** – revenue vs quantity.
+4. **Revenue by Country (Choropleth)** – highlights geographic value.
+5. **RFM Segment Grid (`fig-rfm5`)** – shows where segments cluster.
+6. **Customer Bubble Chart (`fig-rfm7`)** – intuitive and visually striking summary.
+7. *(Optional)* Interactive `rfm6` or `rfm7` can be linked if hosted.
+
+Let me know if you'd like help exporting figures into `/figures/` and embedding a few into the Markdown!
+
+
+
 ## 📁 Project Structure
 
 ```bash
