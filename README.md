@@ -23,6 +23,16 @@ This project delivers a comprehensive **Customer Segmentation Analysis** using t
 
 ---
 
+## Exploratory Data Analysis (EDA)
+### **Key Insights:**
+- **Revenue Peak**: Highest in November 2011 (holiday season), with notable growth also in May & September.
+- **Optimal Sales Hours**: 10 AM – 3 PM, primarily weekdays.
+- **Best-selling Products**: Home décor and gift items, varying preferences across countries.
+- **Market Insights**: UK contributes 82% of total revenue; notable value per customer in Netherlands & Ireland.
+- **Customer Retention**: 70.8% retention over 6 months, with approximately 65% repeat buyers.
+
+---
+
 ## RFM Model Overview
 | Metric        | Description                    | Business Importance                     |
 |---------------|--------------------------------|-----------------------------------------|
@@ -48,16 +58,6 @@ This project delivers a comprehensive **Customer Segmentation Analysis** using t
 
 ---
 
-## Exploratory Data Analysis (EDA)
-### **Key Insights:**
-- **Revenue Peak**: Highest in November 2011 (holiday season), with notable growth also in May & September.
-- **Optimal Sales Hours**: 10 AM – 3 PM, primarily weekdays.
-- **Best-selling Products**: Home décor and gift items, varying preferences across countries.
-- **Market Insights**: UK contributes 82% of total revenue; notable value per customer in Netherlands & Ireland.
-- **Customer Retention**: 70.8% retention over 6 months, with approximately 65% repeat buyers.
-
----
-
 ## Key Strategic Recommendations
 - Strengthen customer retention programs targeted at **Champions**, **Loyal Customers**, and **Potential Loyalists**.
 - Implement targeted reactivation campaigns for **At Risk** and **Hibernating** segments.
@@ -67,12 +67,13 @@ This project delivers a comprehensive **Customer Segmentation Analysis** using t
 
 ---
 
-## Sample Visualizations
+## Visualizations
 - **Monthly Revenue Trends**: Seasonal patterns clearly visualized.
 - **Hourly Transaction Patterns**: Ideal timing for promotional activity.
 - **Top-Selling Products**: Revenue and quantity insights.
 - **Geographic Revenue Distribution**: Market value mapping.
 - **RFM Segment Grid & Customer Bubble Chart**: Intuitive segmentation visualization.
+
 _Additional interactive visuals and detailed analyses are provided in the notebook._
 
 ---
@@ -81,9 +82,3 @@ _Additional interactive visuals and detailed analyses are provided in the notebo
 - **Languages**: Python, SQL (SQLite)
 - **Libraries**: Pandas, NumPy, Matplotlib, Seaborn, Plotly
 - **Environment**: Jupyter Notebook
-
----
-
-## Project Tags
-`#RFMAnalysis` `#CustomerSegmentation` `#Retention` `#ECommerceAnalytics` `#Python` `#SQL`
-
