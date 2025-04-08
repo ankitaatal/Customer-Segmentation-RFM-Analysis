@@ -56,8 +56,6 @@ This project delivers a comprehensive **Customer Segmentation Analysis** using t
 - **Market Insights**: UK contributes 82% of total revenue; notable value per customer in Netherlands & Ireland.
 - **Customer Retention**: 70.8% retention over 6 months, with approximately 65% repeat buyers.
 
-[Detailed EDA insights](#)
-
 ---
 
 ## Key Strategic Recommendations
