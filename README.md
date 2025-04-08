@@ -23,7 +23,7 @@ This project delivers a comprehensive **Customer Segmentation Analysis** using t
 
 ---
 
-## 📐 RFM Model Overview
+## RFM Model Overview
 | Metric        | Description                    | Business Importance                     |
 |---------------|--------------------------------|-----------------------------------------|
 | **Recency**   | Days since last purchase       | Indicates customer's recent engagement   |
@@ -77,8 +77,6 @@ This project delivers a comprehensive **Customer Segmentation Analysis** using t
 - **RFM Segment Grid & Customer Bubble Chart**: Intuitive segmentation visualization.
 
 _Additional interactive visuals and detailed analyses are provided in the notebook._
-
-![RFM Metrics](RFM-Metrics.webp)
 
 ---
 
