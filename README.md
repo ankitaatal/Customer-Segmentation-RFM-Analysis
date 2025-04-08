@@ -73,7 +73,6 @@ This project delivers a comprehensive **Customer Segmentation Analysis** using t
 - **Top-Selling Products**: Revenue and quantity insights.
 - **Geographic Revenue Distribution**: Market value mapping.
 - **RFM Segment Grid & Customer Bubble Chart**: Intuitive segmentation visualization.
-[Choropleth Revenue Map](interactive_charts/choropleth_global_revenue.html)
 _Additional interactive visuals and detailed analyses are provided in the notebook._
 
 ---
